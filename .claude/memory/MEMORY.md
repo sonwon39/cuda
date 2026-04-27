@@ -1,0 +1,1 @@
+- [CUDA learning project](project_cuda_learning.md) — 이 워크스페이스의 목표: CUDA 학습 → 실습 → 최종 앱 제작
