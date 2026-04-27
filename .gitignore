@@ -1,3 +1,103 @@
+# Claude Code
 .claude/settings.local.json
+
+# === C/C++ build artifacts ===
+*.o
 *.obj
+*.lo
+*.slo
+*.ko
+
+# Linker / debug
 *.exe
+*.out
+*.app
+*.ilk
+*.exp
+*.pdb
+*.idb
+*.map
+
+# Static / shared libraries
+*.a
+*.lib
+*.la
+*.lai
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Precompiled headers
+*.gch
+*.pch
+
+# === CUDA ===
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+*.cudafe1.*
+*.cudafe2.*
+*.module_id
+*.compute_*
+*.hash
+*.cu.obj
+*.cu.o
+
+# === Visual Studio (MSVC) ===
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Build output dirs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+ipch/
+
+# === CMake ===
+build/
+build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+Testing/
+_deps/
+
+# === Editors / IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS junk ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# === Logs / profiling ===
+*.log
+*.nvprof
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.ncu-rep
