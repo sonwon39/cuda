@@ -1,0 +1,5 @@
+thread count : 8
+multi thread start
+elapsed time (multi thread) : 176.686 ms
+elapsed time (multi thread - OpenMP): 72.2036 ms
+elapsed time (1 thread): 68.8072 ms
