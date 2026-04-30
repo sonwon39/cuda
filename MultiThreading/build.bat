@@ -1,5 +1,7 @@
 @echo off
-call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
+if not defined VSCMD_VER (
+    call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
+)
 if not exist build mkdir build
 set /p NAME=exe name :
 cd /d "%~dp0"

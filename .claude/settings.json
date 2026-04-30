@@ -5,7 +5,9 @@
       "Write(*)",
       "Edit(*)",
       "WebSearch(*)",
-      "WebFetch(*)"
+      "WebFetch(*)",
+      "Bash(*)",
+      "PowerShell(*)"
     ],
     "deny": []
   }
